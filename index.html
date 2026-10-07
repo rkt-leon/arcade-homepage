@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEON ARCADE - 전국 체인점 게임 오락실</title>
+    <meta name="description" content="전국 주요 지점의 최신 아케이드 게임장. 다양한 게임기와 이벤트로 즐거움을 선사합니다." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800;900&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <div class="logo">
+          <span>NEON</span> ARCADE NETWORK
+        </div>
+        <nav class="menu">
+          <a href="#about">소개</a>
+          <a href="#branches">지점</a>
+          <a href="#games">게임</a>
+          <a href="#pricing">요금제</a>
+          <a href="#rewards">멤버십</a>
+          <a href="#contact">문의</a>
+        </nav>
+        <a href="#contact" class="btn btn-primary">지점 방문</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">KOREA'S #1 ARCADE CHAIN</p>
+            <h1>네온 아케이드 체인은<br />전국 어디든 있습니다.</h1>
+            <p class="subtitle">
+              서울에서 부산까지, 전국 28개 지점에서<br />
+              최신 게임기와 이벤트를 만나보세요.
+            </p>
+            <div class="hero-actions">
+              <a href="#branches" class="btn btn-primary">가까운 지점 찾기</a>
+              <a href="#games" class="btn btn-secondary">게임 소개</a>
+            </div>
+            <ul class="stats">
+              <li><strong>28</strong><span>체인 지점</span></li>
+              <li><strong>150+</strong><span>게임기</span></li>
+              <li><strong>50K+</strong><span>회원</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual">
+            <div class="game-grid-showcase">
+              <div class="game-item item-1"></div>
+              <div class="game-item item-2"></div>
+              <div class="game-item item-3"></div>
+              <div class="game-item item-4"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">ABOUT</p>
+            <h2>네온 아케이드 체인에 오신 걸 환영합니다.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-box">
+              <div class="icon-box">⚡</div>
+              <h3>최신 게임기 보유</h3>
+              <p>
+                매월 새로운 게임기를 도입하며,<br />
+                정기적인 업그레이드로 항상 최고의<br />
+                플레이 환경을 유지합니다.
+              </p>
+            </div>
+            <div class="about-box">
+              <div class="icon-box">🏆</div>
+              <h3>전국 대회 개최</h3>
+              <p>
+                매월 게임 대회와 이벤트를 통해<br />
+                사용자들이 경쟁하고 즐길 수 있는<br />
+                플랫폼을 제공합니다.
+              </p>
+            </div>
+            <div class="about-box">
+              <div class="icon-box">💎</div>
+              <h3>프리미엄 멤버십</h3>
+              <p>
+                멤버십 가입으로 전국 지점 할인,<br />
+                포인트 적립, 이벤트 우선 참여<br />
+                혜택을 누릴 수 있습니다.
+              </p>
+            </div>
+            <div class="about-box">
+              <div class="icon-box">🎮</div>
+              <h3>다양한 장르</h3>
+              <p>
+                래트랩, 리듬게임, 슈팅, 스포츠,<br />
+                퍼즐까지 모든 장르의 게임을<br />
+                한 곳에서 즐길 수 있습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="branches" class="section alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">BRANCHES</p>
+            <h2>전국 28개 지점</h2>
+            <p class="heading-sub">가까운 지점을 찾아 방문하세요</p>
+          </div>
+
+          <div class="branch-filter">
+            <button class="filter-btn active" data-region="all">전체</button>
+            <button class="filter-btn" data-region="seoul">서울</button>
+            <button class="filter-btn" data-region="gyeonggi">경기</button>
+            <button class="filter-btn" data-region="incheon">인천</button>
+            <button class="filter-btn" data-region="busan">부산</button>
+            <button class="filter-btn" data-region="daegu">대구</button>
+            <button class="filter-btn" data-region="daejeon">대전</button>
+          </div>
+
+          <div class="branch-grid">
+            <div class="branch-card" data-region="seoul">
+              <div class="branch-header">
+                <h3>강남점</h3>
+                <span class="status open">OPEN</span>
+              </div>
+              <p class="address">서울시 강남구 테헤란로 123</p>
+              <div class="branch-info">
+                <div><strong>☎</strong> 02-1234-5678</div>
+                <div><strong>⏰</strong> 10:00 - 24:00</div>
+              </div>
+              <a href="#contact" class="btn btn-secondary">방문 예약</a>
+            </div>
+
+            <div class="branch-card" data-region="seoul">
+              <div class="branch-header">
+                <h3>명동점</h3>
+                <span class="status open">OPEN</span>
+              </div>
+              <p class="address">서울시 중구 명동10길 45</p>
+              <div class="branch-info">
+                <div><strong>☎</strong> 02-2345-6789</div>
+                <div><strong>⏰</strong> 11:00 - 23:00</div>
+              </div>
+              <a href="#contact" class="btn btn-secondary">방문 예약</a>
+            </div>
+
+            <div class="branch-card" data-region="seoul">
+              <div class="branch-header">
+                <h3>홍대점</h3>
+                <span class="status open">OPEN</span>
+              </div>
+              <p class="address">서울시 마포구 홍대길 78</p>
+              <div class="branch-info">
+                <div><strong>☎</strong> 02-3456-7890</div>
+                <div><strong>⏰</strong> 09:00 - 01:00</div>
+              </div>
+              <a href="#contact" class="btn btn-secondary">방문 예약</a>
+            </div>
+
+            <div class="branch-card" data-region="gyeonggi">
+              <div class="branch-header">
+                <h3>수원점</h3>
+                <span class="status open">OPEN</span>
+              </div>
+              <p class="address">경기도 수원시 팔달구 중앙로 200</p>
+              <div class="branch-info">
+                <div><strong>☎</strong> 031-1234-5678</div>
+                <div><strong>⏰</strong> 10:00 - 23:00</div>
+              </div>
+              <a href="#contact" class="btn btn-secondary">방문 예약</a>
+            </div>
+
+            <div class="branch-card" data-region="gyeonggi">
+              <div class="branch-header">
+                <h3>일산점</h3>
+                <span class="status open">OPEN</span>
+              </div>
+              <p class="address">경기도 고양시 일산동구 중앙로 320</p>
+              <div class="branch-info">
+                <div><strong>☎</strong> 031-2345-6789</div>
+                <div><strong>⏰</strong> 10:00 - 24:00</div>
+              </div>
+              <a href="#contact" class="btn btn-secondary">방문 예약</a>
+            </div>
+
+            <div class="branch-card" data-region="incheon">
+              <div class="branch-header">
+                <h3>인천점</h3>
+                <span class="status open">OPEN</span>
+              </div>
+              <p class="address">인천시 남동구 센트럴로 150</p>
+              <div class="branch-info">
+                <div><strong>☎</strong> 032-3456-7890</div>
+                <div><strong>⏰</strong> 10:00 - 23:00</div>
+              </div>
+              <a href="#contact" class="btn btn-secondary">방문 예약</a>
+            </div>
+
+            <div class="branch-card" data-region="busan">
+              <div class="branch-header">
+                <h3>해운대점</h3>
+                <span class="status open">OPEN</span>
+              </div>
+              <p class="address">부산시 해운대구 센텀중앙로 250</p>
+              <div class="branch-info">
+                <div><strong>☎</strong> 051-1234-5678</div>
+                <div><strong>⏰</strong> 11:00 - 24:00</div>
+              </div>
+              <a href="#contact" class="btn btn-secondary">방문 예약</a>
+            </div>
+
+            <div class="branch-card" data-region="daegu">
+              <div class="branch-header">
+                <h3>대구점</h3>
+                <span class="status open">OPEN</span>
+              </div>
+              <p class="address">대구시 중구 중앙대로 400</p>
+              <div class="branch-info">
+                <div><strong>☎</strong> 053-2345-6789</div>
+                <div><strong>⏰</strong> 10:00 - 23:00</div>
+              </div>
+              <a href="#contact" class="btn btn-secondary">방문 예약</a>
+            </div>
+
+            <div class="branch-card" data-region="daejeon">
+              <div class="branch-header">
+                <h3>대전점</h3>
+                <span class="status open">OPEN</span>
+              </div>
+              <p class="address">대전시 유성구 대덕대로 150</p>
+              <div class="branch-info">
+                <div><strong>☎</strong> 042-3456-7890</div>
+                <div><strong>⏰</strong> 10:00 - 23:00</div>
+              </div>
+              <a href="#contact" class="btn btn-secondary">방문 예약</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="games" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">GAMES</p>
+            <h2>최신 인기 게임</h2>
+          </div>
+
+          <div class="games-grid">
+            <article class="game-card">
+              <div class="game-thumb thumb-one"></div>
+              <div class="game-info">
+                <span class="tag">Racing</span>
+                <h3>Racer X: Turbo Drift</h3>
+                <p>초고속 드리프트 레이싱의 진수를 경험하세요.</p>
+                <div class="game-meta">⭐ 4.9/5</div>
+              </div>
+            </article>
+
+            <article class="game-card">
+              <div class="game-thumb thumb-two"></div>
+              <div class="game-info">
+                <span class="tag">Rhythm</span>
+                <h3>Beat Rush Pro</h3>
+                <p>음악과 함께하는 리듬 게임의 최고봉.</p>
+                <div class="game-meta">⭐ 4.8/5</div>
+              </div>
+            </article>
+
+            <article class="game-card">
+              <div class="game-thumb thumb-three"></div>
+              <div class="game-info">
+                <span class="tag">Action</span>
+                <h3>Neon Strike Ultimate</h3>
+                <p>강렬한 총격전을 벌이세요.</p>
+                <div class="game-meta">⭐ 4.7/5</div>
+              </div>
+            </article>
+
+            <article class="game-card">
+              <div class="game-thumb thumb-four"></div>
+              <div class="game-info">
+                <span class="tag">Sports</span>
+                <h3>Power Slam 2024</h3>
+                <p>스포츠 게임의 최강자가 되세요.</p>
+                <div class="game-meta">⭐ 4.6/5</div>
+              </div>
+            </article>
+
+            <article class="game-card">
+              <div class="game-thumb thumb-five"></div>
+              <div class="game-info">
+                <span class="tag">Puzzle</span>
+                <h3>Cyber Blocks</h3>
+                <p>미니 게임으로 재미있게 플레이하세요.</p>
+                <div class="game-meta">⭐ 4.5/5</div>
+              </div>
+            </article>
+
+            <article class="game-card">
+              <div class="game-thumb thumb-six"></div>
+              <div class="game-info">
+                <span class="tag">Card</span>
+                <h3>Pixel Quest</h3>
+                <p>카드 게임으로 전략을 펼치세요.</p>
+                <div class="game-meta">⭐ 4.4/5</div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">PRICING</p>
+            <h2>이용권 및 요금제</h2>
+          </div>
+
+          <div class="pricing-tabs">
+            <button class="tab-btn active" data-type="hourly">시간제</button>
+            <button class="tab-btn" data-type="package">패키지</button>
+            <button class="tab-btn" data-type="membership">멤버십</button>
+          </div>
+
+          <div class="pricing-grid hourly active">
+            <div class="price-card">
+              <h3>1시간</h3>
+              <div class="price">3,000원</div>
+              <ul>
+                <li>✓ 모든 게임 이용</li>
+                <li>✓ 편의점 이용</li>
+                <li>✓ 휴식 공간</li>
+              </ul>
+              <a href="#contact" class="btn btn-secondary">선택</a>
+            </div>
+
+            <div class="price-card featured">
+              <div class="label">BEST</div>
+              <h3>3시간 패스</h3>
+              <div class="price">7,500원</div>
+              <ul>
+                <li>✓ 모든 게임 이용</li>
+                <li>✓ 편의점 할인 10%</li>
+                <li>✓ VIP 대기실</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary">선택</a>
+            </div>
+
+            <div class="price-card">
+              <h3>야간 무한</h3>
+              <div class="price">12,000원</div>
+              <ul>
+                <li>✓ 22:00 - 06:00 무제한</li>
+                <li>✓ 편의점 할인 15%</li>
+                <li>✓ 우선 기기 사용권</li>
+              </ul>
+              <a href="#contact" class="btn btn-secondary">선택</a>
+            </div>
+          </div>
+
+          <div class="pricing-grid package">
+            <div class="price-card">
+              <h3>10회 이용권</h3>
+              <div class="price">25,000원</div>
+              <ul>
+                <li>✓ 1회 2,500원 (16% 할인)</li>
+                <li>✓ 3개월 유효기간</li>
+                <li>✓ 3명 공동 사용 가능</li>
+              </ul>
+              <a href="#contact" class="btn btn-secondary">선택</a>
+            </div>
+
+            <div class="price-card featured">
+              <div class="label">인기</div>
+              <h3>20회 이용권</h3>
+              <div class="price">45,000원</div>
+              <ul>
+                <li>✓ 1회 2,250원 (25% 할인)</li>
+                <li>✓ 6개월 유효기간</li>
+                <li>✓ 우선 입장권 3장</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary">선택</a>
+            </div>
+
+            <div class="price-card">
+              <h3>50회 이용권</h3>
+              <div class="price">100,000원</div>
+              <ul>
+                <li>✓ 1회 2,000원 (33% 할인)</li>
+                <li>✓ 1년 유효기간</li>
+                <li>✓ VIP 멤버 등급</li>
+              </ul>
+              <a href="#contact" class="btn btn-secondary">선택</a>
+            </div>
+          </div>
+
+          <div class="pricing-grid membership">
+            <div class="price-card">
+              <h3>실버 멤버</h3>
+              <div class="price">월 9,900원</div>
+              <ul>
+                <li>✓ 월 8시간 무료 이용</li>
+                <li>✓ 모든 지점 할인 5%</li>
+                <li>✓ 월 2회 추가 할인권</li>
+              </ul>
+              <a href="#contact" class="btn btn-secondary">가입</a>
+            </div>
+
+            <div class="price-card featured">
+              <div class="label">추천</div>
+              <h3>골드 멤버</h3>
+              <div class="price">월 19,900원</div>
+              <ul>
+                <li>✓ 월 20시간 무료 이용</li>
+                <li>✓ 모든 지점 할인 10%</li>
+                <li>✓ 매월 포인트 1,000점</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary">가입</a>
+            </div>
+
+            <div class="price-card">
+              <h3>플래티넘 멤버</h3>
+              <div class="price">월 39,900원</div>
+              <ul>
+                <li>✓ 월 무제한 이용</li>
+                <li>✓ 모든 지점 할인 20%</li>
+                <li>✓ 매월 포인트 3,000점</li>
+              </ul>
+              <a href="#contact" class="btn btn-secondary">가입</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="rewards" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">REWARDS</p>
+            <h2>네온 포인트 시스템</h2>
+          </div>
+
+          <div class="rewards-content">
+            <div class="rewards-info">
+              <div class="reward-item">
+                <div class="reward-num">01</div>
+                <h3>포인트 적립</h3>
+                <p>이용 금액의 5%를 자동으로 적립합니다. 멤버십에 따라 최대 15% 적립!</p>
+              </div>
+              <div class="reward-item">
+                <div class="reward-num">02</div>
+                <h3>포인트 사용</h3>
+                <p>적립된 포인트는 언제든 게임 이용권이나 상품으로 교환할 수 있습니다.</p>
+              </div>
+              <div class="reward-item">
+                <div class="reward-num">03</div>
+                <h3>등급 상승</h3>
+                <p>포인트를 모아 등급을 올리면 더 큰 할인과 특별 혜택을 받으세요.</p>
+              </div>
+              <div class="reward-item">
+                <div class="reward-num">04</div>
+                <h3>생일 선물</h3>
+                <p>생일 달에는 포인트 1,000점을 기본 제공합니다.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="events" class="section alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">EVENTS</p>
+            <h2>이벤트 & 대회</h2>
+          </div>
+
+          <div class="event-grid">
+            <div class="event-card">
+              <div class="event-badge">전국 대회</div>
+              <div class="event-date">8월 10-11일</div>
+              <h3>레이싱 게임 전국 대회</h3>
+              <p>Racer X: Turbo Drift 전국 대회 개최. 우승상 상품 500만원!</p>
+              <a href="#contact" class="btn btn-secondary">참가 신청</a>
+            </div>
+
+            <div class="event-card">
+              <div class="event-badge">매월</div>
+              <div class="event-date">매주 토요일</div>
+              <h3>주말 순위 이벤트</h3>
+              <p>토요일 고점수 TOP 10에게 포인트 보너스 제공.</p>
+              <a href="#contact" class="btn btn-secondary">참가</a>
+            </div>
+
+            <div class="event-card">
+              <div class="event-badge">신규 기기</div>
+              <div class="event-date">매달 1주</div>
+              <h3>신규 게임 출시 이벤트</h3>
+              <p>새로운 게임 출시 시 초대 플레이 할인 20% 제공.</p>
+              <a href="#contact" class="btn btn-secondary">알림 등록</a>
+            </div>
+
+            <div class="event-card">
+              <div class="event-badge">고객 감사</div>
+              <div class="event-date">분기별</div>
+              <h3>멤버 감사 이벤트</h3>
+              <p>분기별 랜덤 추첨으로 상품권, 포인트 증정.</p>
+              <a href="#contact" class="btn btn-secondary">참여</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt cta">
+        <div class="container">
+          <div class="cta-content">
+            <h2>지금 바로 가장 가까운 네온 아케이드 지점을 방문하세요!</h2>
+            <p>전국 28개 지점에서 최고의 게임 경험을 기다리고 있습니다.</p>
+            <a href="#branches" class="btn btn-primary">지점 확인하기</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container contact-box">
+          <div class="contact-form">
+            <h2>문의 & 예약</h2>
+            <p>방문 예약, 단체 이용, 기타 문의사항을 남겨주세요.</p>
+            <div class="contact-methods">
+              <div>
+                <p><strong>☎ 전화</strong></p>
+                <a href="tel:1811-1234">1811-1234</a>
+                <p style="font-size: 0.9rem; color: var(--muted); margin-top: 4px;">평일 10:00 - 22:00</p>
+              </div>
+              <div>
+                <p><strong>💬 카톡</strong></p>
+                <a href="#">카카오톡 채널</a>
+                <p style="font-size: 0.9rem; color: var(--muted); margin-top: 4px;">24시간 상담 가능</p>
+              </div>
+              <div>
+                <p><strong>✉️ 이메일</strong></p>
+                <a href="mailto:info@neonarcade.co.kr">info@neonarcade.co.kr</a>
+                <p style="font-size: 0.9rem; color: var(--muted); margin-top: 4px;">24시간 이내 회신</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-wrap">
+        <div>
+          <div class="logo" style="margin-bottom: 16px;">
+            <span>NEON</span> ARCADE NETWORK
+          </div>
+          <p style="color: var(--muted); font-size: 0.9rem;">
+            © 2026 NEON ARCADE. All rights reserved.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h4>네비게이션</h4>
+          <a href="#about">소개</a>
+          <a href="#branches">지점</a>
+          <a href="#games">게임</a>
+          <a href="#pricing">요금제</a>
+          <a href="#rewards">멤버십</a>
+        </div>
+        <div class="footer-links">
+          <h4>고객지원</h4>
+          <a href="#contact">문의</a>
+          <a href="#">자주 묻는 질문</a>
+          <a href="#">이용약관</a>
+          <a href="#">개인정보처리방침</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
